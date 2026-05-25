@@ -771,7 +771,7 @@ nav li {
 
 
 @media (max-width: 768px) {
-  .hero { height: auto; padding: 2rem 1rem; flex-direction: column; }
+  .hero { height: auto;flex-direction: column; }
   .hero-text h1 { font-size: 1.8rem; }
   .hero-text p { font-size: 1rem; }
   .subscribe-section { height: auto; padding: 2rem 1rem; }
