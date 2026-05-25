@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Explore the delicious menu at Red Rose Dessert: handcrafted cakes, cookies, jellies, and mousses with custom order options for every occasion.">
+    <meta name="author" content="Dery Henriquez">
+    <title>Red Rose Dessert</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="menustyle.css">
+<body>
+  	  <div class="container">
+  <header>
+            <img src="images/logo-sin-fondo.png" alt="Red Rose Dessert Logo" class="logo">
+         <button id="abrir">☰</button>
+        <!-- Navegación de escritorio y móvil -->
+        <nav class="mobile-nav" id="mobileMenu">
+        <button id="cerrar">✖</button>
+            <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="custom-order.html">Custom Order</a></li>
+        </ul>
+      </nav>
+  
+  </header>
+
+    <main>
+        <section class="menu">
+            <h1>Our Menu</h1>
+
+
+            <div class="filters">
+                <button onclick="filterMenu('all')">All</button>
+                <button onclick="filterMenu('cake')">Cakes</button>
+                <button onclick="filterMenu('cookie')">Cookies</button>
+                <button onclick="filterMenu('jelly')">Jelly</button>
+
+               
+            </div>
+</section>
+            <div id="menu-items" class="items-grid"></div>
+        
+    </main>
+
+  <footer>
+    <div class="footer-content">
+   <p> &copy; <span id="currentyear"></span> Red Rose Desserts. All rights reserved.  </p> 
+
+
+     <div class="social-icons">
+  <a href="https://www.facebook.com/share/154QjFnBKrG" target="_blank" rel="noopener">
+    <img src="images/facebook-icon.png" alt="Facebook">
+  </a>
+  <a href="https://twitter.com" target="_blank" rel="noopener">
+    <img src="images/twitter-icon.png" alt="Twitter">
+  </a>
+  <a href="https://www.instagram.com/red.rosedesserts25/" target="_blank" rel="noopener">
+    <img src="images/instagram-icon.png" alt="Instagram">
+  </a>
+</div>
+   
+    </div>
+  </footer>
+</div>  
+    <script src="menuscript.js" defer></script>
+</body>
+</html>
